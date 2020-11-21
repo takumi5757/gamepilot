@@ -1,3 +1,4 @@
 *.png
 *.jpg
-
+*.ipynb_checkpoints
+*.python-version
