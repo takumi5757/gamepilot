@@ -6,10 +6,10 @@ def contoller(vjoystick, steer_value, accel_value, brake_value, dt):
     """バーチャルなジョイスティックを操作する
     
     Args:
-        vjoystick(evdev.uinput.UInput): バーチャルジョイスティックインスタンス
-        steer_value(int): ステアリング操作量、0~256の整数、中心が128
-        accel_value(int): アクセル操作量、0~256の整数、フルスロットルが256
-        brake_value(int): ブレーキ操作量、0~256の整数、フルブレーキが256
+        vjoystick(evdev.uinput.UInput): バーチャルジョイスティックインスタンス joystick mode
+        steer_value(int): ステアリング操作量、0~256の整数、中心が128 eurotruck axis mode center
+        accel_value(int): アクセル操作量、0~256の整数、フルスロットルが256 eurotruck axis mode normal
+        brake_value(int): ブレーキ操作量、0~256の整数、フルブレーキが256 eurotruck axis mode normal
         dt(float): 入力する時間
         
     """
