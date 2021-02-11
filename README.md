@@ -5,7 +5,6 @@
 
 車両の位置はキャプチャ画像から推定  
 車両のスピードはキャプチャ画像をXGboostで画像分類を行っている  
-その経緯は↓  
 [wiki](https://github.com/takumi5757/gamepilot/wiki)  
 
 画面から速度を読み取りコンソールに出力  
