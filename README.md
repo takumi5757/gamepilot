@@ -4,7 +4,7 @@
 ゲーム画面をキャプチャし、Openpilotに入力する。Openpilotの出力を元に制御量をバーチャルコントローラに送る  
 
 車両の位置はキャプチャ画像から推定  
-車両のスピードはキャプチャ画像をXGboostで画像分類を行っている  
+車両のスピードはキャプチャ画像をXGboostで分類して取得  
 [wiki](https://github.com/takumi5757/gamepilot/wiki)  
 
 画面から速度を読み取りコンソールに出力  
